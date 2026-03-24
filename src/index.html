@@ -45,12 +45,9 @@
             display: flex; align-items: center; justify-content: space-between;
             height: 70px;
         }
-        .logo {
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.6rem; font-weight: 700;
-            color: var(--white);
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        .logo img {
+            height: 50px;
+            width: auto;
         }
         .logo span { color: var(--red); }
         .nav-links { display: flex; gap: 2rem; list-style: none; }
@@ -352,14 +349,10 @@
             flex-wrap: wrap;
             gap: 1rem;
         }
-        .footer-logo {
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.3rem; font-weight: 700;
-            color: var(--white);
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        .footer-logo img {
+            height: 40px;
+            width: auto;
         }
-        .footer-logo span { color: var(--red); }
         .footer-copy { color: var(--gray); font-size: 0.85rem; }
         .footer-social { display: flex; gap: 1rem; }
         .footer-social a {
@@ -413,7 +406,7 @@
 <!-- NAV -->
 <nav>
     <div class="nav-inner">
-        <div class="logo">Mega<span>Automotriz</span></div>
+        <div class="logo"><img src="src/logo.jpg" alt="Mega Automotriz"></div>
         <ul class="nav-links" id="navLinks">
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
@@ -598,7 +591,7 @@
 <!-- FOOTER -->
 <footer>
     <div class="footer-inner">
-        <div class="footer-logo">Mega<span>Automotriz</span></div>
+        <div class="footer-logo"><img src="src/logo.jpg" alt="Mega Automotriz"></div>
         <div class="footer-copy">© 2026 Mega Automotriz. Todos los derechos reservados.</div>
         <div class="footer-social">
             <a href="https://www.facebook.com/share/178ApnU9NH/?mibextid=wwXIfr" target="_blank" title="Facebook">f</a>
